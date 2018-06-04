@@ -199,7 +199,7 @@ RUN echo "Instalando tratamento Hangup Cause" \
 
 RUN rm -Rf /usr/src/IssabelBR
 
-COPY admin /var/www/html/admin
+#COPY admin /var/www/html/admin // Se Voce tiver Problemas com o Modulo Call Center, me avise.
 
 RUN chown -R asterisk.asterisk /var/www/db
 RUN systemctl restart asterisk \
