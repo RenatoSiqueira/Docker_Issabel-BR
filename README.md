@@ -5,7 +5,6 @@
 ### BR - Descrição: ###
 - Este é um Dockerfile para a construção de um Issabel, com codec g729, áudios PT-BR, tradução entre outras melhorias.
 
-
 ### Sobre ###
 - CentOS 7 [https://store.docker.com/images/centos]
 - Inclusão do tema original Elastix
@@ -37,7 +36,6 @@
 Salvar Gravações: 
 -v "$PWD/monitor:/var/spool/asterisk/monitor"
 ```
-
 
 ## Chan Dongle ##
 - Se usar chan dongle, realizar esta tarefa no HOST (não no contêiner):
@@ -93,6 +91,9 @@ Altamente Recomendável executar o Path:
 ```
 wget -O - https://github.com/ibinetwork/IssabelBR/raw/master/patch-issabelbr.sh | bash
 ```
+
+## Como eu posso ajudar? ##
+Ajude-nos a entregar um conteúdo de qualidade. Toda ajuda é bem vinda.
 
 ## Autor ##
 Renato Siqueira (renatoelysiqueira@gmail.com)
