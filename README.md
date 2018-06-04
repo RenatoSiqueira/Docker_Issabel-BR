@@ -9,6 +9,7 @@
 - CentOS 7 [https://store.docker.com/images/centos]
 - Inclusão do tema original Elastix
 - Chan Dongle já instalado
+- Fop2 e RoomX adicionados
 - Utilização do Netinstall (Ver Seção Issabel), porém com alterações para o funcionamento dentro do conteiner.
 - Inclusão do Path [https://github.com/ibinetwork/IssabelBR]
 (Obrigado Rafael Tavares!)
