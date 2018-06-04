@@ -1,0 +1,38 @@
+#hlp_content p {
+	text-align: justify;
+}
+div.hlp_figures img{
+	display: block;
+	margin: auto;
+}
+div.hlp_figures p{
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+
+}
+
+
+/* inline tables */
+table.inline {
+  background-color: #ffffff;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+table.inline th {
+  padding: 3px;
+  border: 1px solid #aaaaaa;
+  background-color: #eeeeee;
+  font-size: 11px;
+}
+
+table.inline td {
+  padding: 3px;
+  border: 1px solid #aaaaaa;
+  font-size: 11px;
+}
+
+.mainHelp{
+   background-color:#FAFAFA;
+}

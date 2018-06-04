@@ -1,0 +1,184 @@
+div.neo-table-toolbar-button {
+	position: relative;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-color:#fafafa;
+	border: 1px solid #aaa;
+	margin: 3px 3px 3px 3px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border-radius: 8px 8px 8px 8px;
+	text-shadow: 1px 1px #ccc;
+	padding: 5px 4px 4px 8px;
+	background-image:url(../images/bgicon.png);
+}
+
+.neo-table-header-row {
+        position:relative;
+        height:30px;
+        padding: 0px 8px 10px 0px;
+        margin-top:8px;
+        border-top: 1px solid #aaa;
+        border-bottom: 1px solid #aaa;
+        background: url(../../../images/addons_header_row_bg.png) repeat-x top;
+}
+
+.neo-table-header-row input[type=text] {
+	height:18px;
+	padding: 0px 2px 0px 2px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.neo-table-footer-row {
+        position:relative;
+        height:30px;
+        padding: 0px 8px 10px 0px;
+        margin-top:0px;
+        border-bottom: 1px solid #aaa;
+        background: url(../../../images/addons_header_row_bg.png) repeat-x top;
+}
+
+.neo-table-footer-row input[type=text] {
+	height:18px;
+	padding: 0px 2px 0px 2px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.neo-table-header-row-filter {
+    position:relative;
+    display:inline-block;
+    height:32px;
+    float:left;
+    padding:8px 10px 0px 10px;
+    border-right: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.neo-table-header-row-filter:hover, 
+.neo-table-header-row-filter:hover input[type=submit],
+.neo-table-header-row-filter:hover input[type=button]{
+    background: -moz-linear-gradient(center top , #777777, #999999);
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#777),to(#999));
+    background: linear-gradient(center top , #777777, #999999);
+    border-color: #888888 !important;
+    color: #FFFFFF;
+}
+
+.neo-table-header-row-navigation {
+        position:relative;
+        display:inline-block;
+        height:30px;
+        float:right;
+        padding:10px 5px 0px 10px;
+        border-left: 1px solid #aaa;
+        text-align:center;
+        vertical-align:absolute-middle;
+}
+
+#neo-table-header-filterrow {
+	position:relative;
+	padding:10px;
+	background-color:#ddd;
+}
+
+#neo-table-header-filterrow input[type=text] {
+	height: 22px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+tr.neo-table-title-row {
+    font-size: 12px;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    color: #eee;
+    text-align: left;
+    background-color: #555;
+    border-bottom: 1px #aaaaaa solid;
+    height: 32px;
+}
+
+td.neo-table-title-row {
+    BORDER-BOTTOM: 1px #aaaaaa solid;
+    text-indent: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+th.neo-table-title-row {
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    BACKGROUND: #FAFAFA;
+    COLOR: #335588;
+}
+
+tr.neo-table-data-row {
+    /* border-bottom: 1px #bbb dashed; */
+}
+td.neo-table-data-row {
+    font-family: verdana, arial, helvetica, sans-serif;
+    color:#555;
+    font-size: 11px;
+    text-indent: 5px;
+    border-bottom: 1px #b6b6b6 solid;
+    padding: 6px 6px 6px 6px;
+}
+
+tr.neo-table-data-row:hover {
+    background-color:#e0e0e0;
+}
+
+.neo-table-action{
+    border:0px;
+    background-color:transparent;
+    cursor:pointer;
+    padding: 0px;
+    vertical-align: middle;
+    font: 13px Verdana, Arial,Helvetica,sans-serif;
+    color:#444;
+    text-decoration:none;
+}
+
+td.neo-table-title-row a.link_summary_off{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+td.neo-table-title-row a.link_summary_on{
+  text-decoration: none;
+  color:#F5DEB3;
+  font-weight:bold;
+}
+
+div.neo-table-filter-controls{
+    background-color: #FFFFFF;
+    min-height: 28px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position:relative;
+    float:none;
+}
+
+div.neo-filter-control{
+    background-color: #E7D8E3;
+    margin-left: 3px;
+    margin-right: 1px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #aaa;
+    border-radius:5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    height: 17px;
+    position: relative;
+    display: inline-block;
+}
