@@ -30,7 +30,7 @@
 ## Outras Informações ##
 - CentOS 7
 - Asterisk 11
-- Tamanho total da imagem: 9.29 Gb
+- Tamanho total da imagem: 2.35 Gb
 - Testado/Compilado em Host Debian 9
 - Se colocar em produção, crie um volume para salvar as gravações no HOST (e não perder as gravações quando remover o contêiner):
 ```
