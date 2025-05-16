@@ -1,3 +1,5 @@
+# Este repositório está (bastante) desatualizado. Considere-o apenas para estudo e/ou inspiração. Mantive o repositório apenas para ajudar de alguma forma, mas não recomendo seu uso.
+
 # Docker_Issabel-BR
 ### En - Description: ###
 - This is a Dockerfile for a building an Issabel Linux with g729 codec, audios PTBR, translations and more features.
